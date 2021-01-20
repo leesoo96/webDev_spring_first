@@ -1,5 +1,9 @@
 package com.spring.first;
 
+import org.springframework.stereotype.Component;
+
+//Component -> 사용할 객체를 정할 때 사용 
+@Component("tv") // 빈 등록 
 public class LgTV extends Tv {
 	
 	public LgTV() {

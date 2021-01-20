@@ -1,6 +1,10 @@
 package com.spring.first;
 
+//import org.springframework.stereotype.Component;
+
+//@Component("boss")
 public class BossSpeaker implements Speakerable {
+	
 	private int currentSpeakerPower;
 	
 	public BossSpeaker() {
